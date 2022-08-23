@@ -1,0 +1,85 @@
+.utama {
+    text-align: center;
+    margin-bottom: 5cm;
+    font-family: 'Cinzel', serif;
+}
+
+.atas {
+    text-align: center;
+    word-spacing: 2cm;
+}
+
+.kotak1 {
+    border-style: solid;
+    flex: 50%;
+    border-color: rgb(119, 119, 119);
+    font-family: 'Old Standard TT', serif;
+}
+
+.kotak1 img{border-style: inset;
+border-color:rgba(0, 0, 0, 0.418);}
+
+.kotak2 {
+    border-style: solid;
+    flex: 5%;
+    border-color: rgb(119, 119, 119);
+    font-family: 'Special Elite', cursive;
+}
+
+.kotak1 hr {
+    text-align: center;
+    width: 50%;
+    outline-style: double;
+    background-color: black;
+}
+
+.kotak2 hr {
+    text-align: center;
+    width: 50%;
+    color: white;
+    outline-style: outset;
+    background-color: black;
+}
+
+.ads hr {text-align: center;
+outline-style: inset;
+color: white;
+background-color: black;}
+
+img {
+    width: 6cm;
+}
+
+.kotak {
+    display: flex;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 1cm;
+    text-align: center;
+}
+
+.animasi img {
+    width: 4cm;
+    transform: rotate(90deg);
+    animation-name: roket;
+    animation-duration: 4s;
+    margin-top: -6cm;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes roket {
+from {
+    left: -150px;
+}
+
+    to {
+        left: 100%;
+    }
+}
+
+.copyright {text-align: center;}
